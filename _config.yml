@@ -1,0 +1,22 @@
+# Site settings
+baseurl :  # the subpath of your site, e.g. /blog
+title   : 2CMO-666-1516
+
+# Build settings
+gems:
+  - jemoji
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+exclude:
+  - gulpfile
+  - node_modules/
+  - src/
+  - Gemfile
+  - LICENSE.md
+  - package.json
+  - README.md
