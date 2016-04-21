@@ -17,6 +17,6 @@ exclude:
   - node_modules/
   - src/
   - Gemfile
-  - LICENSE.md
+  - LICENSE
   - package.json
   - README.md
